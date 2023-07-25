@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-color: white;
+}
+
+.name {
+    margin-bottom: 85px;
+    padding: 15px 0 30px 0;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 5px solid
+}
+
+p {
+    margin-right: 15px;
+    line-height: 1.78
+}
+
+.dark {
+    margin-top: -10px;
+    font-size: 25px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center
+}
+
+.off, .on {
+    margin-top: 5px;
+    font-size: 33px;
+    cursor: pointer
+}
+
+.on {
+    display: none
+}
+
+.container {
+    max-width: 950px;
+    margin: auto
+}
+
+.pre {
+    padding: 20px;
+    border: 3px solid;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.set {
+    font-size: 40px;
+    display: flex;
+    justify-content: center
+}
+
+.hoursdiv, .minutesdiv {
+    margin-right: 50px
+}
+
+.hours, .minutes, .seconds {
+    width: 100px;
+    margin-left: 2px;
+    padding: 3px 0 3px 10px;
+    font-size: 50px;
+    font-family: "Gemunu Libre";
+    border: 2px solid;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.cont {
+    margin-top: 15px;
+    display: none;
+    justify-content: flex-end
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 28px;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.start {
+    margin-right: 10px
+}
+
+.work {
+    padding: 20px;
+    display: none;
+    border: 3px solid;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.icons {
+    margin-bottom: 15px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center
+}
+
+.icon0, .icon, .icon2, .icon3, .icon4, .icon5 {
+    margin-left: 4px;
+    margin-right: 4px
+}
+
+.icon, .icon2, .icon3, .icon4 {
+    display: none
+}
+
+.total {
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-family: "Gemunu Libre";
+    display: flex;
+    justify-content: center
+}
+
+.count {
+    margin-bottom: 15px;
+    font-size: 75px;
+    font-family: "Gemunu Libre";
+    display: flex;
+    justify-content: center
+}
+
+.cont2 {
+    display: none;
+    justify-content: flex-end
+}
+
+.stop, .resume, .give, .mute, .unmute {
+    margin-left: 10px
+}
+
+.resume, .unmute {
+    display: none
+}
+
+.last {
+    padding: 20px;
+    display: none;
+    border: 3px solid;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
+.up {
+    margin-bottom: 15px;
+    font-size: 55px;
+    text-align: center
+}
+
+.back {
+    margin: auto;
+    display: block
+}
+
+@media (max-width: 600px) {
+    .name {
+        padding: 7px 0 14px 0;
+        font-size: 50px
+    }
+    p {
+        margin-right: 12px;
+        line-height: 1.7
+    }
+    .lst {
+        margin-bottom: -10px
+    }
+    .dark {
+        margin-top: 7px;
+        font-size: 21px
+    }
+    .off, .on {
+        font-size: 25px;
+    }
+    .container {
+        max-width: 330px
+    }
+    .set {
+        font-size: 20px;
+        flex-direction: column
+    }
+    .hoursdiv, .minutesdiv, .secondsdiv {
+        margin-bottom: 25px;
+        margin-right: 0;
+        text-align: center
+    }
+    .hours, .minutes, .seconds {
+        width: 58px;
+        padding: 1px 0 1px 5px;
+        font-size: 25px
+    }
+    .cont {
+        justify-content: center
+    }
+    button {
+        font-size: 18px
+    }
+    .cont2 {
+        margin-bottom: 25px;
+        justify-content: center
+    }
+    .last {
+        padding-bottom: 40px
+    }
+    .up {
+        font-size: 35px
+    }
+}

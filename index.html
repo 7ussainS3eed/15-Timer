@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Timer</title>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="name">
+            <p class="lst">Timer</p>
+            <div class="dark">
+                <p>Dark mode</p>
+                <div class="off">
+                    <i class="fa-solid fa-toggle-off"></i>
+                </div>
+                <div class="on">
+                    <i class="fa-solid fa-toggle-on"></i>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="pre">
+                <div class="set">
+                    <div class="hoursdiv">Hours 
+                        <input type="number" class="hours" min="0" max="23" value="00">
+                    </div>
+                    <div class="minutesdiv">Minutes 
+                        <input type="number" class="minutes" min="0" max="59" value="00">
+                    </div>
+                    <div class="secondsdiv">Seconds 
+                        <input type="number" class="seconds" min="0" max="59" value="00">
+                    </div>
+                </div>
+                <div class="cont">
+                    <button class="start">Start</button>
+                    <button class="reset">Reset</button>
+                </div>
+                
+            </div>
+            <div class="work">
+                <div class="icons">
+                    <div>
+                        <div class="icon0">
+                            <i class="fa-solid fa-plug"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-plug-circle-check"></i>
+                        </div>
+                        <div class="icon3">
+                            <i class="fa-solid fa-plug-circle-xmark"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="icon5">
+                            <i class="fa-solid fa-volume-off"></i>
+                        </div>
+                        <div class="icon2">
+                            <i class="fa-solid fa-volume-high"></i>
+                        </div>
+                        <div class="icon4">
+                            <i class="fa-solid fa-volume-xmark"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="total"><span class="hours3"></span>:<span class="minutes3"></span>:<span class="seconds3"></span></div>
+                <div class="count">
+                    <div class="hours2"></div>:
+                    <div class="minutes2"></div>:
+                    <div class="seconds2"></div>
+                </div>
+                <div class="cont2">
+                    <button class="stop">Pause</button>
+                    <button class="resume">Resume</button>
+                    <button class="give">Give up</button>
+                    <button class="mute">Mute</button>
+                    <button class="unmute">Unmute</button>
+                </div>
+            </div>
+            <div class="last">
+                <div class="total"><span class="hours3"></span>:<span class="minutes3"></span>:<span class="seconds3"></span></div>
+                <div class="up">Time is up!</div>
+                <button class="back">Ok</button>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
